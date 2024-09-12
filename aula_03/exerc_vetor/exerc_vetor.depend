@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1724982972 source:c:\users\fatec-dsm2\desktop\ana\ed\aula_03\exerc_vetor\segundo.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
+1724982201 source:c:\users\fatec-dsm2\desktop\ana\ed\aula_03\exerc_vetor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+

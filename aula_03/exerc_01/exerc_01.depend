@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1725578206 source:c:\users\fatec-dsm2\desktop\ana\ed\aula_03\exerc_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+
