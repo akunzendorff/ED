@@ -3,12 +3,12 @@
 #include <locale.h>
 #include <math.h>
 
-struct Habitante{
+typedef struct Habitante{
         int idade;
         char sexo;
         float salario;
         int nFilhos;
-    };
+    }H;
 
 int main()
 {
@@ -17,9 +17,9 @@ int main()
     int i;
     float media, soma = 0;
 
-    struct Habitante habitantes[500];
+    H habitantes[MAX];
 
-    for(i=0; i<500; i++){
+    for(i=0; i<MAX; i++){
         fflush(stdin);
 
         printf("\nInsira a idade do habitante: ");
@@ -39,7 +39,7 @@ int main()
         soma += habitantes[i].salario;
     }
 
-    media = soma/500;
+    media = (float)soma/(float)MAX;
 
     printf("\nA média do número de salário dos habitantes é: %f", media);
 
